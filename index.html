@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио по теме Monster Hunter">
+    <title>Monster Hunter | Портфолио</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav">
+            <a class="logo" href="#home">MONSTER<span>HUNTER</span></a>
+            <nav>
+                <a href="#home">Главная</a>
+                <a href="#monsters">Монстры</a>
+                <a href="#about">О проекте</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <p class="eyebrow">ПОРТФОЛИО ВЕБ-РАЗРАБОТЧИКА</p>
+                <h1>МИР<br><span>МОНСТРОВ</span></h1>
+                <p class="hero-text">
+                    Небольшой учебный веб-проект, посвящённый яркому миру Monster Hunter:
+                    охотникам, приключениям и легендарным существам.
+                </p>
+                <a class="button" href="#monsters">Исследовать мир</a>
+            </div>
+        </section>
+
+        <section id="monsters" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">БЕСТИАРИЙ</p>
+                    <h2>Избранные монстры</h2>
+                    <p>Три легендарных образа для демонстрации возможностей HTML и CSS.</p>
+                </div>
+
+                <div class="cards">
+                    <article class="card">
+                        <div class="monster-icon">🐉</div>
+                        <h3>Раталос</h3>
+                        <p>Небесный хищник, известный своей силой и огненным дыханием.</p>
+                        <span class="tag">ОГОНЬ</span>
+                    </article>
+
+                    <article class="card">
+                        <div class="monster-icon">🦖</div>
+                        <h3>Аньянаф</h3>
+                        <p>Мощный монстр, который сочетает скорость, ярость и разрушительную атаку.</p>
+                        <span class="tag">ХИЩНИК</span>
+                    </article>
+
+                    <article class="card">
+                        <div class="monster-icon">🐲</div>
+                        <h3>Зиногр</h3>
+                        <p>Грозный зверь, окружённый электрическими разрядами во время охоты.</p>
+                        <span class="tag">МОЛНИЯ</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container about-grid">
+                <div>
+                    <p class="eyebrow">О ПРОЕКТЕ</p>
+                    <h2>Учебное портфолио</h2>
+                </div>
+                <div>
+                    <p>
+                        Этот сайт создан в рамках практического задания по организации
+                        рабочей среды для веб-проекта. Использованы HTML, CSS и JavaScript.
+                        Проект подготовлен для проверки в Google Chrome, Chrome DevTools,
+                        Git и последующей публикации на GitHub.
+                    </p>
+                    <ul class="skills">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Git / GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contact section">
+            <div class="container contact-box">
+                <p class="eyebrow">ФИНАЛЬНЫЙ ШАГ</p>
+                <h2>Готов к следующей охоте?</h2>
+                <p>Нажми кнопку, чтобы проверить работу JavaScript.</p>
+                <button class="button" id="huntButton">Начать охоту</button>
+                <p id="message" class="message"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Monster Hunter Portfolio · Учебный веб-проект</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
